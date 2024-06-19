@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+   padding: 30px;
+   margin: 30px;
+}
+
+.text{
+    padding: 30px;
+    font-family: fantasy;
+    font-size: 30px;
+    color:rgb(236, 244, 243);
+    text-align: center;
+    background-color: rgb(51, 56, 56);
+}
+
+.transitionBackground{
+    transition: background-color 3s;
+}
+
+.transitionBackground:hover{
+    background-color: rgba(133, 17, 100, 0.377);
+    color: rgb(35, 3, 71);
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    padding: 30px;   
+}
+
+.animationFadeInFadeOut{
+    animation: fadeInFadeOut 2s linear infinite;
+}
+
+@keyframes fadeInFadeOut{
+    0%{opacity:1}
+    50%{opacity:0.2}
+    100%{opacity:1}
+}
+  
